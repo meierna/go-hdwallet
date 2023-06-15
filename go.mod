@@ -1,6 +1,6 @@
 module github.com/meierna/go-hdwallet
 
-go 1.16
+go 1.19
 
 require (
 	github.com/binance-chain/go-sdk v1.2.6
