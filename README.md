@@ -35,7 +35,7 @@ import (
     "fmt"
 
     "github.com/tyler-smith/go-bip39"
-    "github.com/ygcool/go-hdwallet"
+    "github.com/meierna/go-hdwallet"
 )
 
 func main() {
