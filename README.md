@@ -22,7 +22,7 @@ Golang实现的多币种HD钱包
 ## 安装
 
 ```sh
-go get -v -u github.com/ygcool/go-hdwallet
+go get -v -u github.com/meierna/go-hdwallet
 ```
 
 ## 示例
