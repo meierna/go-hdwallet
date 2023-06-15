@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ygcool/go-hdwallet"
+	"github.com/meierna/go-hdwallet"
 )
 
 var (

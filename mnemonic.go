@@ -1,8 +1,9 @@
 package hdwallet
 
 import (
-	"github.com/tyler-smith/go-bip39"
-	"github.com/tyler-smith/go-bip39/wordlists"
+	"errors"
+	"github.com/meierna/go-bip39"
+	"github.com/meierna/go-bip39/wordlists"
 )
 
 func setLanguage(language string) {
@@ -37,5 +38,8 @@ func NewMnemonic(length int, language string) (string, error) {
 // NewSeed creates a hashed seed
 func NewSeed(mnemonic, password, language string) ([]byte, error) {
 	setLanguage(language)
+	if !checkWorld(mnemonic) {
+		return nil, errors.New("illegality mnemonic")
+	}
 	return bip39.NewSeedWithErrorChecking(mnemonic, password)
 }

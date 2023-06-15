@@ -34,7 +34,7 @@ package main
 import (
     "fmt"
 
-    "github.com/tyler-smith/go-bip39"
+    "github.com/meierna/go-bip39"
     "github.com/meierna/go-hdwallet"
 )
 
