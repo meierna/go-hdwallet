@@ -10,7 +10,6 @@ require (
 	github.com/ethereum/go-ethereum v1.10.8
 	github.com/fbsobreira/gotron-sdk v0.0.0-20210810183618-c8cf2a5f46d5
 	github.com/filecoin-project/go-address v0.0.4
-	github.com/meierna/go-bip39 v0.0.0-20230615033142-00022a9f08da
 	github.com/myxtype/filecoin-client v0.3.2
 	github.com/tendermint/tendermint v0.32.3
 )
@@ -29,6 +28,7 @@ require (
 	github.com/ipfs/go-ipld-cbor v0.0.4 // indirect
 	github.com/ipfs/go-ipld-format v0.0.1 // indirect
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
+	github.com/meierna/go-bip39 v0.0.0-20230616013921-242e85bf43c5 // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v0.1.1-0.20190913151208-6de447530771 // indirect
 	github.com/mr-tron/base58 v1.1.3 // indirect
@@ -44,8 +44,8 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/tendermint/go-amino v0.14.1 // indirect
 	github.com/whyrusleeping/cbor-gen v0.0.0-20200812213548-958ddffe352c // indirect
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
-	golang.org/x/sys v0.0.0-20210816183151-1e6c022a8912 // indirect
+	golang.org/x/crypto v0.10.0 // indirect
+	golang.org/x/sys v0.9.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
 )
