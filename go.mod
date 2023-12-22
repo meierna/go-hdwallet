@@ -28,7 +28,7 @@ require (
 	github.com/ipfs/go-ipld-cbor v0.0.4 // indirect
 	github.com/ipfs/go-ipld-format v0.0.1 // indirect
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
-	github.com/meierna/go-bip39 v0.0.0-20230616013921-242e85bf43c5 // indirect
+	github.com/meierna/go-bip39 v0.0.0-20231222075800-d331a94edf90 // indirect
 	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1 // indirect
 	github.com/minio/sha256-simd v0.1.1-0.20190913151208-6de447530771 // indirect
 	github.com/mr-tron/base58 v1.1.3 // indirect
